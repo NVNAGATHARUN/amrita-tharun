@@ -1,0 +1,47 @@
+.quotes {
+    background: var(--bg-primary);
+    position: relative;
+}
+
+.quotes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-card {
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+}
+
+.quote-icon {
+    color: var(--accent-primary);
+    opacity: 0.3;
+    margin-bottom: 1.5rem;
+}
+
+.quote-text {
+    font-size: 1.75rem;
+    font-family: var(--font-heading);
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    line-height: 1.4;
+}
+
+.quote-author {
+    color: var(--accent-secondary);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+@media (max-width: 768px) {
+    .quote-text {
+        font-size: 1.25rem;
+    }
+}
