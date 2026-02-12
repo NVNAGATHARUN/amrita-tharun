@@ -14,7 +14,7 @@ const toolkitItems = [
         title: 'Custom Gate Builder',
         description: 'Build and simulate quantum circuits visually using our proprietary Qiskit-powered engine.',
         icon: <Layers size={32} />,
-        link: 'http://localhost:8501',
+        link: 'https://amrita-tharun-egbfxmwjnbindywhwsseky.streamlit.app/',
         gradient: 'linear-gradient(135deg, #6366f1 0%, #818cf8 100%)'
     },
     {
