@@ -21,7 +21,7 @@ const toolkitItems = [
         title: 'Code Visualizer',
         description: 'Convert QASM or Qiskit code into visual circuits and state portraits.',
         icon: <Code size={32} />,
-        link: 'http://localhost:8502',
+        link: 'https://amrita-tharun-6vhahrguz6wsdenidggcam.streamlit.app/',
         gradient: 'linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%)'
     }
 ];
