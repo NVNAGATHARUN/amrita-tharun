@@ -7,7 +7,7 @@ const toolkitItems = [
         title: 'Quantum Fragility Sim',
         description: 'Visualize how noise and decoherence destroy quantum states over time. Our [ED-TECH 7] custom engine.',
         icon: <Layers size={32} />,
-        link: 'http://localhost:8503',
+        link: 'https://amrita-tharunnetlifyapp-7qn7bt5dappzdoovuqzwftl.streamlit.app/',
         gradient: 'linear-gradient(135deg, #f43f5e 0%, #fb7185 100%)'
     },
     {
@@ -61,7 +61,7 @@ const Toolkit = () => {
                             <h3 className="card-title">{item.title}</h3>
                             <p className="card-description">{item.description}</p>
                             <div className="card-footer">
-                                <span className="launch-text">Launch Local Simulator</span>
+                                <span className="launch-text">Launch Live Simulator</span>
                                 <div className="arrow">→</div>
                             </div>
                         </motion.a>
